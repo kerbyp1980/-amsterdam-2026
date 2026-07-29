@@ -12,3 +12,9 @@ Upload every file in this folder to the root of the GitHub repository used for G
 - Existing restaurant page retained and restyled
 
 Personal tickets, confirmations, booking references and passport information should remain in a private folder and should not be uploaded to this public repository.
+
+
+Daily guide update:
+- Tuesday, Wednesday, Thursday and Friday buttons now open separate one-page PDFs.
+- The date-aware Today's Adventure button opens the matching daily PDF during the trip.
+- The complete guide remains available from the home page.
