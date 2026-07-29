@@ -1,11 +1,18 @@
-# Kerby Amsterdam Website — Version 5.5
+# Kerby Family Amsterdam Website — Version 5
 
-Restaurant reservation update:
+Version 5 reorganizes the home page so **Explore by Day** appears immediately below the Travel Companion panel.
 
-- Box Sociaal moved into **Our Reservations**.
-- Reservation shown as **Thursday breakfast at 8:00 AM**, matching the Thursday guide.
-- Box Sociaal removed from the flexible breakfast recommendations to avoid duplication.
-- Reservation count updated to six confirmed plans.
-- New stylesheet and script filenames help prevent older cached versions loading on phones.
+## Uploading to GitHub Pages
 
-Upload the extracted files to the root of the GitHub repository and replace the existing files.
+1. Extract this ZIP file.
+2. Upload every extracted file to the root of the `-amsterdam-2026` GitHub repository.
+3. Replace the existing files when prompted.
+4. Wait a minute or two for GitHub Pages to publish the update.
+
+The four daily buttons open their individual PDF guides. The Complete Guide and Offline Guide buttons continue to use `amsterdam-guide.pdf`.
+
+Version 5.1 mobile fix:
+- Uses a new stylesheet filename (style-v5-1.css) to prevent phones from loading an older cached stylesheet.
+- Reinforces the Explore by Day cards on narrow screens.
+
+Version 6 restaurant update: rebuilt restaurant guide with six confirmed reservations and corrected schedule.
