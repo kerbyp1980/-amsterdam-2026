@@ -1,20 +1,12 @@
-# Kerby Amsterdam Website — Version 4
+# Kerby Family Amsterdam Website — Version 5
 
-Upload every file in this folder to the root of the GitHub repository used for GitHub Pages.
+Version 5 reorganizes the home page so **Explore by Day** appears immediately below the Travel Companion panel.
 
-## New in Version 4
-- Consistent mobile navigation and styling across all pages
-- Date-aware “Today’s Adventure” card on the home page
-- Expanded attraction cards with maps, official websites, highlights and tips
-- Dedicated Nine Streets guide with shops, cafés and a suggested walk
-- Dedicated Pulitzer Amsterdam page
-- Practical information page
-- Existing restaurant page retained and restyled
+## Uploading to GitHub Pages
 
-Personal tickets, confirmations, booking references and passport information should remain in a private folder and should not be uploaded to this public repository.
+1. Extract this ZIP file.
+2. Upload every extracted file to the root of the `-amsterdam-2026` GitHub repository.
+3. Replace the existing files when prompted.
+4. Wait a minute or two for GitHub Pages to publish the update.
 
-
-Daily guide update:
-- Tuesday, Wednesday, Thursday and Friday buttons now open separate one-page PDFs.
-- The date-aware Today's Adventure button opens the matching daily PDF during the trip.
-- The complete guide remains available from the home page.
+The four daily buttons open their individual PDF guides. The Complete Guide and Offline Guide buttons continue to use `amsterdam-guide.pdf`.
