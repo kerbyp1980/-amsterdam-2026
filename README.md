@@ -1,12 +1,14 @@
-# Kerby Family Amsterdam Guide — Version 2
+# Kerby Amsterdam Website — Version 4
 
-Upload all files in this folder to the root of the existing GitHub repository.
+Upload every file in this folder to the root of the GitHub repository used for GitHub Pages.
 
-## Updated files
+## New in Version 4
+- Consistent mobile navigation and styling across all pages
+- Date-aware “Today’s Adventure” card on the home page
+- Expanded attraction cards with maps, official websites, highlights and tips
+- Dedicated Nine Streets guide with shops, cafés and a suggested walk
+- Dedicated Pulitzer Amsterdam page
+- Practical information page
+- Existing restaurant page retained and restyled
 
-- `index.html` — updated home page with a Restaurants & Drinks button
-- `restaurants.html` — new restaurant page
-- `cover.jpg`
-- `amsterdam-guide.pdf`
-
-On GitHub, choose **Add file → Upload files**, drag in all four files, and confirm replacement of the existing files. Commit the changes to the `main` branch. GitHub Pages should update automatically within a few minutes.
+Personal tickets, confirmations, booking references and passport information should remain in a private folder and should not be uploaded to this public repository.
