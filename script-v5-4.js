@@ -1,5 +1,0 @@
-
-const toggle=document.querySelector('.nav-toggle');const links=document.querySelector('.nav-links');if(toggle){toggle.addEventListener('click',()=>links.classList.toggle('open'));}
-const tripDays={"2026-08-04":"tuesday-guide.pdf","2026-08-05":"wednesday-guide.pdf","2026-08-06":"thursday-guide.pdf","2026-08-07":"friday-guide.pdf"};
-const today=new Date();const key=[today.getFullYear(),String(today.getMonth()+1).padStart(2,'0'),String(today.getDate()).padStart(2,'0')].join('-');
-const box=document.querySelector('[data-today]');if(box){if(tripDays[key]){box.querySelector('h2').textContent="Today's Adventure";box.querySelector('p').textContent='Open the itinerary page for today.';box.querySelector('a').href=tripDays[key];box.querySelector('a').textContent='Open Today’s Plan';}else if(today<new Date('2026-08-04T00:00:00')){const days=Math.ceil((new Date('2026-08-04T00:00:00')-today)/86400000);box.querySelector('p').textContent=days+' days until Amsterdam.';}else{box.querySelector('h2').textContent='Our Amsterdam Adventure';box.querySelector('p').textContent='Open the complete family guide and revisit the trip.';}}
