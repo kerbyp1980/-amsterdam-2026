@@ -10,3 +10,7 @@ Version 5 reorganizes the home page so **Explore by Day** appears immediately be
 4. Wait a minute or two for GitHub Pages to publish the update.
 
 The four daily buttons open their individual PDF guides. The Complete Guide and Offline Guide buttons continue to use `amsterdam-guide.pdf`.
+
+Version 5.1 mobile fix:
+- Uses a new stylesheet filename (style-v5-1.css) to prevent phones from loading an older cached stylesheet.
+- Reinforces the Explore by Day cards on narrow screens.
