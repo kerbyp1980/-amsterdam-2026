@@ -1,25 +1,20 @@
-# Kerby Family Amsterdam Website — Version 5
+# Kerby Family Amsterdam Website — Version 5.4
 
-Version 5 reorganizes the home page so **Explore by Day** appears immediately below the Travel Companion panel.
+This is a clean replacement package for the GitHub Pages site.
 
-## Uploading to GitHub Pages
+## Restaurant-page corrections
 
-1. Extract this ZIP file.
-2. Upload every extracted file to the root of the `-amsterdam-2026` GitHub repository.
-3. Replace the existing files when prompted.
-4. Wait a minute or two for GitHub Pages to publish the update.
+- The closed Museum Quarter restaurant has been removed.
+- Small Talk is now the Wednesday Museum Quarter lunch recommendation.
+- Unnecessary explanatory copy and ambiguous category labels have been removed.
+- Only genuinely booked venues carry the `✓ Reserved` badge.
+- The clickable controls are clearly labelled `Open in Maps`, `Official Website`, and `View Menu` or equivalent.
 
-The four daily buttons open their individual PDF guides. The Complete Guide and Offline Guide buttons continue to use `amsterdam-guide.pdf`.
+## Uploading
 
-Version 5.1 mobile fix:
-- Uses a new stylesheet filename (style-v5-1.css) to prevent phones from loading an older cached stylesheet.
-- Reinforces the Explore by Day cards on narrow screens.
+1. Extract this ZIP.
+2. In the root of the `-amsterdam-2026` GitHub repository, replace the existing files with every file in this folder.
+3. Delete any old `style-v5-2.css`, `style-v5-3.css`, and `script.js` files if they remain in the repository.
+4. Wait for GitHub Pages to finish deploying, then refresh the site.
 
-
-## Version 5.2 - Restaurant guide
-- Separates confirmed reservations from flexible recommendations.
-- Adds every lunch recommendation and alternative named in the daily guide.
-- Removes PANCAKES Amsterdam from the reservation list and keeps it only as a flexible option.
-- Moves Box Sociaal to recommendations because the guide does not show it as reserved.
-- Flags Brasserie van Baerle's published 3-9 August 2026 summer closure and highlights Cafe de Jaren as the practical alternative.
-- Adds mobile-friendly accordion sections.
+Version 5.4 uses new asset filenames and cache-busting query strings so a phone should not continue displaying the previous restaurant page styling.
